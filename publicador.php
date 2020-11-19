@@ -5,7 +5,7 @@ class PublicFacebook{
 
   function __construct(){
     include "simple_html_dom.php";
-    $this->mysql = new mysqli('', 'root', '', '');
+    $this->mysql = new mysqli('', '', '', '');
   }
 
   function publickFacebookGroup(){
